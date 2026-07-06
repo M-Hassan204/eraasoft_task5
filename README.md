@@ -9,7 +9,7 @@ A Console Application built with **C# (.NET)** that allows teachers to create an
 
 -This project simulates a simple examination system consisting of two parts:
 
-- 👨‍🏫 **Teacher System** *(Completed)*
+- 👨‍🏫 **Teacher System** *(Completed) this repo* 
 - 👨‍🎓 **Student System** *(In Progress)*
 
 The current version focuses on the teacher side, where instructors can create, manage, and export exam questions.

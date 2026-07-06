@@ -6,7 +6,7 @@ namespace eraasoft_task5
     {
         static void Main(string[] args)
         {
-            QuestionList questions = new QuestionList();
+            QuestionList questions = QuestionFileManager.Load();
 
             while (true)
             {
@@ -51,17 +51,14 @@ namespace eraasoft_task5
 
                                 case 2:
                                     q = new ChooseOneQuestion();
-                                    q.Answers.Clear();
                                     break;
 
                                 case 3:
                                     q = new ChooseAllQuestion();
-                                    q.Answers.Clear();
                                     break;
 
                                 default:
                                     Console.WriteLine("Invalid Choice!");
-                                    i--;
                                     Console.ReadKey();
                                     continue;
                             }

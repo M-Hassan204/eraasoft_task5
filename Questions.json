@@ -1,0 +1,80 @@
+[
+  {
+    "$type": "TrueFalse",
+    "Id": 1,
+    "Header": "q1",
+    "Body": "is sun is blue ?",
+    "Marks": 1,
+    "Difficulty": "Easy",
+    "Answers": [
+      {
+        "Id": 1,
+        "Text": "True",
+        "IsCorrect": false
+      },
+      {
+        "Id": 2,
+        "Text": "False",
+        "IsCorrect": true
+      }
+    ],
+    "CorrectAnswer": null
+  },
+  {
+    "$type": "ChooseOne",
+    "Id": 2,
+    "Header": "Q2",
+    "Body": "Which of the following are object-oriented programming languages ....",
+    "Marks": 2,
+    "Difficulty": "Easy",
+    "Answers": [
+      {
+        "Id": 1,
+        "Text": "C#",
+        "IsCorrect": true
+      },
+      {
+        "Id": 2,
+        "Text": "C",
+        "IsCorrect": false
+      },
+      {
+        "Id": 3,
+        "Text": "CSS",
+        "IsCorrect": false
+      }
+    ],
+    "CorrectAnswer": null
+  },
+  {
+    "$type": "ChooseOne",
+    "Id": 3,
+    "Header": "Q3",
+    "Body": "What is OOP?",
+    "Marks": 2,
+    "Difficulty": "Medium",
+    "Answers": [
+      {
+        "Id": 1,
+        "Text": "Operating Online Program",
+        "IsCorrect": false
+      },
+      {
+        "Id": 2,
+        "Text": "Open Office Platform",
+        "IsCorrect": false
+      },
+      {
+        "Id": 3,
+        "Text": "Object-Oriented Programming",
+        "IsCorrect": true
+      },
+      {
+        "Id": 4,
+        "Text": "Optical Output Processor",
+        "IsCorrect": false
+      }
+    ],
+    "CorrectAnswer": null
+  }
+]
